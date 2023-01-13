@@ -1,0 +1,80 @@
+docker
+  492  docker info
+  493  docker image ls
+  494  docker pull ubuntu
+  495  docker image ls
+  496  docker run -it ubuntu:latest bash
+  497  history
+
+
+ 491  docker
+  492  docker info
+  493  docker image ls
+  494  docker pull ubuntu
+  495  docker image ls
+  496  docker run -it ubuntu:latest bash
+  497  history
+  498  docker run -it ubuntu:latest bash
+  499  docker pull ubuntu:20.04
+  500  docker run -it ubuntu:20.04 bash
+  501  docker image ls -a
+  502  docker image tag ubuntu:latest balajitheboss/training:ubuntu-20.04
+  503  docker image ls
+  504  docker image tag ubuntu:latest balajitheboss/training:ubuntu-22.04
+  505  docker image ls
+  506  docker push balajitheboss/training:ubuntu-22.04
+  507  docker login
+  508  docker push balajitheboss/training:ubuntu-22.04
+  509  docker image ls
+  510  docker rmi -f balajitheboss/training:ubuntu-20.04
+  511  docker image ls
+  512  docker image tag ubuntu:20.04 balajitheboss/training:ubuntu-20.04
+  513  docker image ls
+  514  docker push balajitheboss/training:ubuntu-22.04
+  515  docker push balajitheboss/training:ubuntu-20.04
+  516  docker image ls
+  517  docker image inspect balajitheboss/training:ubuntu-22.04
+  518  docker image ls
+  519  docker image save balajitheboss/training:ubuntu-22.04 -o zipfile.tar.gz
+  520  ls
+  521  docker image load -i zipfile.tar.gz
+  522  docker image ls
+  523  docker image prune
+  524  history
+  525  docker run -it ubuntu:latest bash
+  526  docker container ls
+  527  docker container ls -a
+  528  docker container ls
+  529  docker container logs -f ea908aeafb41
+  530  docker container ls
+  531  docker container ls -a
+  532  docker container ls
+  533  docker container inspect df9e35fa01ed
+  534  docker container ls
+  535  docker container rename df9e35fa01ed balaji
+  536  docker container ls
+  537  docker container top 40a9d7ec46f3
+  538  docker container stop 40a9d7ec46f3
+  539  docker container start 40a9d7ec46f3
+  540  docker container ls
+  541  docker container restart 40a9d7ec46f3
+  542  docker container ls
+  543  docker container kill 40a9d7ec46f3
+  544  docker container ls
+  545  docker container start 40a9d7ec46f3
+  546  docker container ls
+  547  docker container stats 40a9d7ec46f3
+  548  docker container exec -it 40a9d7ec46f3 sh
+  549  docker container port 40a9d7ec46f3
+  550  curl localhost:9090
+  551  history
+
+  490  docker run nginx
+  491  docker run nginx -d
+  492  docker run nginx
+  493  docker run --name lion nginx
+  494  docker run --name tiger --port 80:80 nginx
+  495  docker run --name tiger -p 80:80 nginx
+  496  docker run --name tiger -p 9090:80 nginx
+  497  docker run --name elephant -p 9090:80 nginx
+  498  history
