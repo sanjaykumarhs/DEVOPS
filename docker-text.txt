@@ -1,19 +1,20 @@
 docker
-  492  docker info
-  493  docker image ls
-  494  docker pull ubuntu
-  495  docker image ls
-  496  docker run -it ubuntu:latest bash
-  497  history
-
-
- 491  docker
-  492  docker info
-  493  docker image ls
-  494  docker pull ubuntu
-  495  docker image ls
-  496  docker run -it ubuntu:latest bash
-  497  history
+docker info
+docker image ls
+docker pull ubuntu
+docker image ls
+ docker run -it ubuntu:latest bash
+  
+  
+  docker
+  docker info
+  docker image ls
+  docker pull ubuntu
+  docker image ls
+  docker run -it ubuntu:latest bash
+  
+  
+  
   498  docker run -it ubuntu:latest bash
   499  docker pull ubuntu:20.04
   500  docker run -it ubuntu:20.04 bash
